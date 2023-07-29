@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100vw;
+  height: 100%;
+  background-color: #111;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 240px;
+}
+
+#navbar > img {
+  width: 15vw;
+  border: none;
+}
+
+#logo_container {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+#logo_container > a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#button_container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#login_btn {
+  font-size: 24px;
+  border: none;
+  background: #111;
+  color: #fff;
+  font-weight: 700;
+}
+
+#getstart_btn {
+  padding: 16px;
+  font-weight: 700;
+  background: #fff;
+}
+
+#content {
+  height: 67vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 6px;
+  position: relative;
+  line-height: 1.2;
+}
+
+#content > #img1{
+  position: absolute;
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  top: 120px;
+  left: -140px;
+  border-radius: 10px;
+}
+
+
+#content > #img2{
+  position: absolute;
+  width: 260px;
+  height: 160px;
+  object-fit: fill;
+  z-index: 1;
+  top: -280px;
+  right: 624px;
+  border-radius: 10px;
+}
+#content > #img3{
+  position: absolute;
+  width: 140px;
+  height: 200px;
+  object-fit: cover;
+  bottom: 100px;
+  right: -200px;
+  border-radius: 10px;
+}
+
+
+#content > #img4{
+  position: absolute;
+  width: 320px;
+  height: 180px;
+  object-fit: fill;
+  z-index: 1;
+  bottom: -320px;
+  left: 570px;
+  border-radius: 10px;
+}
+
+#content_text {
+  font-size: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 900;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+.middle_content
+{
+    display: flex;align-items: center;gap: 24px;
+}
+
+#anim_btn {
+  font-size: 32px;
+  background: brown;
+  border-radius: 50px;
+  padding: 16px;
+}
+
+
+#scroll{
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  font-size: 32px;
+  padding: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
