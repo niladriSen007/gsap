@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+#page1{
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+#page2{
+  width: 100vw;
+  height: 100vh;
+  background-color: #0a0a0a;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 240px;
+}
+
+#navbar > img {
+  width: 15vw;
+  border: none;
+}
+
+#logo_container {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+#logo_container > a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#button_container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#login_btn {
+  font-size: 24px;
+  border: none;
+  background: #111;
+  color: #fff;
+  font-weight: 700;
+}
+
+#getstart_btn {
+  padding: 16px;
+  font-weight: 700;
+  background: #fff;
+}
+
+
+
+#content{
+  color: #fff;
+  font-size: 64px;
+  padding-top: 124px;
+  padding-left: 256px;
+  line-height: 1.4;
+}
+
+.face{
+  border-radius: 50%;
+  width: 124px;height: 124px;
+  object-fit: cover;
+}
+
+#face2,#face3{
+  margin-left: -64px;
+}
+
+#img_container{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#content_section{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 64px 300px 64px 2px;
+}
+
+#content_img{
+  width: 444px;
+  height: 600px;
+  object-fit: cover;
+}
+
+#page2{
+  display: flex;align-items: center;justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 64px;
+}
+
+#inner1,#inner2,#inner3{
+  width: 320px;
+  height: 320px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius : 10px;
+  box-shadow: #fff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#inner1 > h2{
+  color: #fff;
+  padding-bottom: 16px;
+}
+#inner1 > p{
+  color: #fff;
+}
+#inner2 > h2{
+  color: #fff;
+  padding-bottom: 16px;
+}
+#inner2 > p{
+  color: #fff;
+}
+#inner3 > h2{
+  color: #fff;
+  padding-bottom: 16px;
+}
+#inner3 > p{
+  color: #fff;
+}
+/* #inner2{
+  width: 324px;
+  height: 324px;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius : 10px;
+} */
+/* #inner2{
+  width: 248px;
+  height: 248px;
+  background-color: #fff;
+} */
